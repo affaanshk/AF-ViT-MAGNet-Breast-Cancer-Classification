@@ -49,14 +49,14 @@ print("Predicted BI-RADS Class:", result["predicted_class"])
 print("Class Probabilities:", result["probabilities"])
 ```
 
-📊 Experimental Performance
+## 📊 Experimental Performance
 Refer to the docs/ folder for comprehensive multi-model training loss curves and performance comparison charts[cite: 3].
 
 docs/loss_curves.png: Loss convergence curves across all 9 benchmarked architectures[cite: 3].
 
 docs/performance_chart.png: Comparative bar chart (Accuracy, Precision, Recall, F1-Score)[cite: 3].
 
-🛠️ Technologies
+## 🛠️ Technologies
 Python
 
 PyTorch
@@ -66,3 +66,15 @@ Torchvision
 Scikit-Learn
 
 Seaborn & Matplotlib
+
+## 📜 Citation
+
+If you find this code or architecture useful in your research, please cite our associated paper:
+
+```bibtex
+@article{savalkar2026reproducible,
+  title={A Reproducible Mammography Preprocessing Pipeline for Clinical Noise Removal, Pectoral Segmentation, and Multi-Model Breast Cancer Prediction},
+  author={Savalkar, Vishwayogita A and Saini, Gurpreet Singh and Shaikh, Affaan and Pawar, Shivaji D and Patil, Devendra B},
+  journal={Under Review},
+  year={2026}
+}
